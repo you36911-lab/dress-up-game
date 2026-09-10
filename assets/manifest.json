@@ -1,0 +1,104 @@
+{
+  "blazer": [
+    {
+      "id": "blazer_Catherine",
+      "name": "Catherine",
+      "src": "assets/blazer/Catherine.png"
+    },
+    {
+      "id": "blazer_Constance",
+      "name": "Constance",
+      "src": "assets/blazer/Constance.png"
+    },
+    {
+      "id": "blazer_Gladys",
+      "name": "Gladys",
+      "src": "assets/blazer/Gladys.png"
+    },
+    {
+      "id": "blazer_Ingrid",
+      "name": "Ingrid",
+      "src": "assets/blazer/Ingrid.png"
+    }
+  ],
+  "blouse": [
+    {
+      "id": "blouse_Antoinette",
+      "name": "Antoinette",
+      "src": "assets/blouse/Antoinette.png"
+    },
+    {
+      "id": "blouse_Cecilia",
+      "name": "Cecilia",
+      "src": "assets/blouse/Cecilia.png"
+    },
+    {
+      "id": "blouse_Coralie",
+      "name": "Coralie",
+      "src": "assets/blouse/Coralie.png"
+    },
+    {
+      "id": "blouse_Evangeline",
+      "name": "Evangeline",
+      "src": "assets/blouse/Evangeline.png"
+    },
+    {
+      "id": "blouse_Flora",
+      "name": "Flora",
+      "src": "assets/blouse/Flora.png"
+    },
+    {
+      "id": "blouse_Giselle",
+      "name": "Giselle",
+      "src": "assets/blouse/Giselle.png"
+    },
+    {
+      "id": "blouse_Lavender",
+      "name": "Lavender",
+      "src": "assets/blouse/Lavender.png"
+    },
+    {
+      "id": "blouse_Lottie",
+      "name": "Lottie",
+      "src": "assets/blouse/Lottie.png"
+    },
+    {
+      "id": "blouse_Marianne",
+      "name": "Marianne",
+      "src": "assets/blouse/Marianne.png"
+    },
+    {
+      "id": "blouse_Scarlett",
+      "name": "Scarlett",
+      "src": "assets/blouse/Scarlett.png"
+    },
+    {
+      "id": "blouse_Serena",
+      "name": "Serena",
+      "src": "assets/blouse/Serena.png"
+    }
+  ],
+  "cardigan": [],
+  "coat": [],
+  "dress": [],
+  "hoodie": [],
+  "hooded_zip_up": [],
+  "jacket": [],
+  "jeans": [],
+  "pants": [],
+  "polo_shirt": [],
+  "poncho": [],
+  "romper": [],
+  "shirt": [],
+  "shorts": [],
+  "skirt": [],
+  "sweater": [],
+  "sweatshirt": [],
+  "swimsuit": [],
+  "t_shirt": [],
+  "top": [],
+  "vest": [],
+  "shoes": [],
+  "bag": [],
+  "glasses": []
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dress-Up Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div>
+    <h1 class="wordmark">Dress-Up Studio</h1>
+    <p>Style the character on the left. Pick a category on the right, then tap a piece to wear it.</p>
+  </div>
+</header>
+
+<div class="layout">
+
+  <!-- STAGE -->
+  <div class="stage-col">
+    <div class="stage">
+      <div class="stage-frame" id="stageFrame">
+        <img class="layer" id="baseLayer" src="assets/base-character.png" alt="Base character">
+        <!-- Clothing layers are appended here in order by the JS below -->
+      </div>
+      <div class="bg-picker" id="bgPicker">
+        <span class="bg-label">Backdrop</span>
+        <!-- swatch buttons are rendered here by JS -->
+      </div>
+      <div class="stage-actions">
+        <button class="btn" id="btnRandom">🎲 Shuffle</button>
+        <button class="btn" id="btnReset">↺ Reset</button>
+        <button class="btn primary" id="btnSave">⭳ Save Image</button>
+      </div>
+    </div>
+
+    <div class="layer-toggle-row">
+      <span class="bg-label">Top layer</span>
+      <div class="tabs" id="layerToggle">
+        <button class="tab active" data-mode="topOverBottom">Top over Bottom</button>
+        <button class="tab" data-mode="bottomOverTop">Bottom over Top</button>
+      </div>
+    </div>
+
+    <div class="outfit-list" id="outfitList">
+      <h3>Currently Wearing</h3>
+      <div id="outfitRows"><div class="outfit-empty">Nothing on yet.</div></div>
+    </div>
+  </div>
+
+  <!-- CLOSET -->
+  <div class="closet">
+    <h2>The Closet</h2>
+    <p class="sub">Pick a category to see its pieces below. Tap an item again to take it off.</p>
+
+    <div class="group-label">👗 Clothing</div>
+    <div class="tabs" id="tabsClothes"></div>
+
+    <div class="group-label">👜 Accessories</div>
+    <div class="tabs" id="tabsAccessories"></div>
+
+    <div class="grid-wrap">
+      <div class="grid-title">
+        <h3 id="gridCatName">—</h3>
+        <span class="count" id="gridCount"></span>
+      </div>
+      <div class="grid" id="grid"></div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  Drop your PNGs into assets/&lt;category&gt;/ and run <code>node generate-manifest.js</code> — the closet loads them automatically. Each grid's "+ Add image" tile is just for quick local testing (resets on refresh).
+</footer>
+
+<input type="file" id="fileInput" accept="image/*" style="display:none">
+
+<script src="script.js"></script>
+</body>
+</html>
