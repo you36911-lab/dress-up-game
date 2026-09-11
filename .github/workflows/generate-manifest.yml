@@ -1,0 +1,36 @@
+name: Regenerate clothing manifest
+
+# Runs whenever files inside assets/ change (i.e. you pushed new clothing
+# images), but NOT when only assets/manifest.json itself changes — that
+# exclusion stops this workflow from re-triggering itself in a loop.
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'assets/**'
+      - '!assets/manifest.json'
+      - 'generate-manifest.js'
+
+permissions:
+  contents: write
+
+jobs:
+  build-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run generate-manifest.js
+        run: node generate-manifest.js
+
+      - name: Commit updated manifest.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-update assets/manifest.json [skip ci]"
+          file_pattern: assets/manifest.json
