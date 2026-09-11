@@ -137,7 +137,53 @@
   ],
   "coat": [],
   "dress": [],
-  "hoodie": [],
+  "hoodie": [
+    {
+      "id": "hoodie_Cherry",
+      "name": "Cherry",
+      "src": "assets/hoodie/Cherry.png"
+    },
+    {
+      "id": "hoodie_Ivy",
+      "name": "Ivy",
+      "src": "assets/hoodie/Ivy.png"
+    },
+    {
+      "id": "hoodie_Luna",
+      "name": "Luna",
+      "src": "assets/hoodie/Luna.png"
+    },
+    {
+      "id": "hoodie_Mina",
+      "name": "Mina",
+      "src": "assets/hoodie/Mina.png"
+    },
+    {
+      "id": "hoodie_Nellie",
+      "name": "Nellie",
+      "src": "assets/hoodie/Nellie.png"
+    },
+    {
+      "id": "hoodie_Olive",
+      "name": "Olive",
+      "src": "assets/hoodie/Olive.png"
+    },
+    {
+      "id": "hoodie_Patchouli",
+      "name": "Patchouli",
+      "src": "assets/hoodie/Patchouli.png"
+    },
+    {
+      "id": "hoodie_Primrose",
+      "name": "Primrose",
+      "src": "assets/hoodie/Primrose.png"
+    },
+    {
+      "id": "hoodie_Sophie",
+      "name": "Sophie",
+      "src": "assets/hoodie/Sophie.png"
+    }
+  ],
   "hooded_zip_up": [],
   "jacket": [],
   "jeans": [],
