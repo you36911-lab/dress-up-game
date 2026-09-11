@@ -19,6 +19,11 @@
       "id": "blazer_Ingrid",
       "name": "Ingrid",
       "src": "assets/blazer/Ingrid.png"
+    },
+    {
+      "id": "blazer_Winifred",
+      "name": "Winifred",
+      "src": "assets/blazer/Winifred.png"
     }
   ],
   "blouse": [
@@ -78,7 +83,58 @@
       "src": "assets/blouse/Serena.png"
     }
   ],
-  "cardigan": [],
+  "cardigan": [
+    {
+      "id": "cardigan_Alma",
+      "name": "Alma",
+      "src": "assets/cardigan/Alma.png"
+    },
+    {
+      "id": "cardigan_Annie",
+      "name": "Annie",
+      "src": "assets/cardigan/Annie.png"
+    },
+    {
+      "id": "cardigan_Heidi",
+      "name": "Heidi",
+      "src": "assets/cardigan/Heidi.png"
+    },
+    {
+      "id": "cardigan_June",
+      "name": "June",
+      "src": "assets/cardigan/June.png"
+    },
+    {
+      "id": "cardigan_Leonora",
+      "name": "Leonora",
+      "src": "assets/cardigan/Leonora.png"
+    },
+    {
+      "id": "cardigan_Margaret",
+      "name": "Margaret",
+      "src": "assets/cardigan/Margaret.png"
+    },
+    {
+      "id": "cardigan_Marielle",
+      "name": "Marielle",
+      "src": "assets/cardigan/Marielle.png"
+    },
+    {
+      "id": "cardigan_Rosemary",
+      "name": "Rosemary",
+      "src": "assets/cardigan/Rosemary.png"
+    },
+    {
+      "id": "cardigan_Ruby",
+      "name": "Ruby",
+      "src": "assets/cardigan/Ruby.png"
+    },
+    {
+      "id": "cardigan_Tessa",
+      "name": "Tessa",
+      "src": "assets/cardigan/Tessa.png"
+    }
+  ],
   "coat": [],
   "dress": [],
   "hoodie": [],
